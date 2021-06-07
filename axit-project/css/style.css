@@ -148,14 +148,12 @@ body {
 }
 
 .main__inner-btn {
+    cursor:pointer;
     background-color: #9a9a9a;
     padding: 13px 32px;
     border: solid 2px #ffffff;
     letter-spacing: 0.2mm;
 
-}
-
-.main__inner-btn a {
     text-decoration: none;
 	font-family: Raleway;
     font-size: 15px;
@@ -164,7 +162,16 @@ body {
     color: #ffffff;
 }
 
-.main__inner-btn a:hover {
+/* .main__inner-btn a {
+    text-decoration: none;
+	font-family: Raleway;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color: #ffffff;
+} */
+
+.main__inner-btn:hover {
     color: #000;
 }
 
@@ -231,7 +238,17 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border: none;
+    cursor: pointer;
 
+    font-family: OpenSans;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.2mm;
+    text-align: center;
+    margin-top: 18px;
+    text-decoration: none;
 }
 
 .registration_btn a {
@@ -246,7 +263,7 @@ body {
     text-decoration: none;
 }
 
-.registration_btn a:hover {
+.registration_btn:hover {
     color: #000;
 }
 
@@ -283,11 +300,11 @@ body {
     width: 634px;
 }
 
-.charts__box {
+.tabs__box {
     display: flex;
 }
 
-.section__charts {
+.section__tabs {
     height: 595px;
     background-color: #f5f5f5;
     padding-top: 147px;
@@ -308,16 +325,20 @@ body {
     text-decoration: none;
 }
 
-.charts__options button {
+.tab__items button {
     height: 112px;
     width: 112px;
     margin-bottom: 1px;
+    cursor: pointer;
+}
+
+.tab__item-active {
+    background-color: #fc8530;
 }
 
 .charts__options-btn1 {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-color: #fc8530;
 }
 
 .charts__options-btn3 {
@@ -325,11 +346,15 @@ body {
     border-bottom-right-radius: 5px;
 }
 
-.charts__content {
+.tab__content {
     margin-left: 100px;
 }
 
-.charts__content h3 {
+.tab__container {
+    display: flex;
+}
+
+.tab__container h3 {
     font-family: OpenSans;
     font-size: 20px;
     line-height: 1.2;
@@ -338,7 +363,7 @@ body {
     margin-bottom: 52px;
 }
 
-.charts__content p {
+.tab__container p {
     font-family: OpenSans;
     font-size: 14px;
     line-height: 20px;
@@ -347,8 +372,19 @@ body {
     margin-bottom: 20px;
 }
 
-.charts__images {
+.tab__images-1 {
     margin-left: 105px;
+    margin-top: 15px;
+}
+
+.tab__images-2 {
+    margin-right: 105px;
+    margin-top: 15px;
+}
+
+.tab__images-3 {
+    margin-right: 20px;
+    margin-left: 20px;
     margin-top: 15px;
 }
 
@@ -358,9 +394,8 @@ body {
     border-radius: 5px;
     border: none;
     background-color: #fc8530;
-}
+    cursor: pointer;
 
-.charts__content-btn a {
     font-family: OpenSans;
     font-size: 15px;
     line-height: 20px;
@@ -369,7 +404,16 @@ body {
     text-decoration: none;
 }
 
-.charts__content-btn a:hover {
+/* .charts__content-btn a {
+    font-family: OpenSans;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+} */
+
+.charts__content-btn:hover {
     color: #000;
 }
 
@@ -904,4 +948,23 @@ body {
 
 .contact {
     height: 612px;
+}
+
+
+
+.show {
+    display:block;
+}
+
+.hide {
+    display:none;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;}
+    
+@keyframes fade {
+    from{opacity: 0.1;}
+    to{opacity: 1;}
 }
