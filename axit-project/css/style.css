@@ -659,7 +659,13 @@ body {
     margin-bottom: 80px;
 }
 
-.pricing__inner-box {
+/* .pricing__inner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+} */
+
+.pricing__items {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -946,9 +952,157 @@ body {
     color: #bdbdbd;
 }
 
-.contact {
-    height: 612px;
+
+
+
+/*  ----------  */
+
+
+
+.promotion {
+    height: 540px;
+    padding-top: 108px;
+    text-align: center;
 }
+
+
+.promotion__block {
+    display: flex;
+}
+
+.promotion .title {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 0.9;
+    font-weight: 300;
+    color: #212121;
+}
+
+.promotion__tilda {
+    background-color: #ffa666;
+    width: 65px;
+    border-style: solid 1px;
+    margin-bottom: 30px;
+    height: 3px;
+    margin: 25px auto 40px auto;
+}
+
+.promotion__text {
+    width: 50%;
+    padding: 50px;
+    font-family: Raleway;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 300;
+    color: #212121;
+    text-align: left;
+}
+
+.promotion__timer {
+    width: 50%;
+    text-align: right;
+}
+
+.promotion__timer .timer {
+    margin-top: 60px;
+    padding-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promotion__timer .title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 0.6;
+    font-weight: 300;
+    color: #212121;
+}
+
+.promotion__timer .timer__block {
+    width: 102px;
+    height: 120px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0,0,0,.25);
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #86878b;
+    
+}
+
+.promotion__timer .timer__block span {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Raleway;
+    font-size: 56px;
+    font-weight: 700;
+    color: #212121;
+    
+}
+
+
+
+/*  ------------   */
+
+
+
+.contact {
+    height: 400px;
+    padding-top: 70px;
+    background-color: #9a9a9a;
+    font-family: Raleway;
+}
+
+.contact__inner {
+    text-align: center;
+}
+
+.contact__inner h3 {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 0.9;
+    font-weight: 300;
+    color: #fff;
+}
+
+.contact__inner-tilda {
+    background-color: #ffffff;
+    width: 65px;
+    border-style: solid 1px;
+    margin-bottom: 23px;
+    height: 3px;
+    margin: 25px auto 23px auto;
+}
+
+.contact__inner p {
+    font-family: Raleway;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #cecece;
+    margin-bottom: 33px;
+}
+
+.contact__form-login {
+
+}
+
+.contact__form-us {
+    /* display: flex; */
+    
+}
+
+.contact__form-messege {
+    margin-top: 30px;
+}
+
+.contact__form-messege input {
+    height: 60px;
+}
+
+
 
 
 
