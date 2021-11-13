@@ -54,7 +54,7 @@ Deploy: https://sergeyloveyko.github.io/cssMemSlider/cssMemSlider/index.html
 Task: momentum  
 Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/momentum/momentum-stage1.md
 
-Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFE2021Q3/momentum/
+Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFE2021Q3/momentum/  
 Deploy: https://suspicious-joliot-5f7cc0.netlify.app/ (тут работает перелистевание треков)
 
 
