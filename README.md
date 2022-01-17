@@ -58,4 +58,10 @@ Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFE2021Q3/momentu
 Deploy: https://suspicious-joliot-5f7cc0.netlify.app/ (тут работает перелистевание треков)
 
 
+  
+-------------------
 
+Task: Portfolio  
+Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1-hints.md
+
+Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/portfolio/
