@@ -65,3 +65,14 @@ Task: Portfolio
 Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/portfolio/portfolio-part1-hints.md
 
 Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/portfolio/
+
+
+
+-------------------
+
+Task: audio-player  
+Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md
+
+Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/audio-player/
+
+Work project: https://laughing-johnson-dd47c2.netlify.app/
