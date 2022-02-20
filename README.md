@@ -81,7 +81,7 @@ Work project: https://laughing-johnson-dd47c2.netlify.app/
 
 -------------------
 
-Task: audio-player  
+Task: image-gallery  
 Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md
 
 Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/image-galery/
