@@ -70,7 +70,7 @@ Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/port
 
 -------------------
 
-Task: audio-player  
+Task: tic-tac-toe 
 Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md
 
 Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/audio-player/
@@ -85,3 +85,12 @@ Task: image-gallery
 Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30.md
 
 Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/image-galery/
+
+
+
+-------------------
+
+Task: tic-tac-toe  
+Link: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/js30%23/js30-7.md
+
+Deploy: https://rolling-scopes-school.github.io/sergeyloveyko-JSFEPRESCHOOL/tic-tac-toe/
